@@ -1,0 +1,80 @@
+.doctor-section {
+  margin-top: 40px;
+  padding: 20px;
+}
+
+.doctor-title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 25px;
+  color: var(--primary-text);
+}
+
+.doctor-list {
+  display: grid;
+  gap: 22px;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  padding: 10px;
+}
+
+.doctor-card {
+  background: var(--card-bg);
+  padding: 22px;
+  border-radius: 18px;
+  box-shadow: var(--card-shadow);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border: 1px solid var(--border-color);
+}
+
+.doctor-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--card-shadow-hover);
+}
+
+.doc-name {
+  font-size: 1.3rem;
+  color: var(--primary-text);
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.specialization,
+.experience,
+.rating,
+.hospital-name,
+.address,
+.phone {
+  font-size: 0.95rem;
+  margin: 6px 0;
+  color: var(--secondary-text);
+}
+
+.specialization strong,
+.experience strong,
+.rating strong,
+.hospital-name strong {
+  color: var(--primary-text);
+}
+
+.phone {
+  font-weight: 600;
+}
+
+:root[data-theme="light"] {
+  --primary-text: #1a1a1a;
+  --secondary-text: #444;
+  --card-bg: #ffffff;
+  --card-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+  --card-shadow-hover: rgba(0, 0, 0, 0.15) 0px 6px 18px;
+  --border-color: #e2e2e2;
+}
+
+:root[data-theme="dark"] {
+  --primary-text: #ffffff;
+  --secondary-text: #cfcfcf;
+  --card-bg: #1e1e1e;
+  --card-shadow: rgba(255, 255, 255, 0.05) 0px 4px 12px;
+  --card-shadow-hover: rgba(255, 255, 255, 0.1) 0px 6px 18px;
+  --border-color: #333;
+}
