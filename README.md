@@ -1,3 +1,5 @@
+# curemap-ui
+CureMap helps users understand possible health conditions by analyzing their symptoms and provides recommendations for nearby hospitals. It empowers users with early health insights, encourages timely medical consultation, and makes healthcare access simpler and more reliable.
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
