@@ -4,7 +4,7 @@ const token = localStorage.getItem("authToken");
 
 export const loginUser = async (formData) => {
   try {
-    const res = await fetch("http://curemap-api.onrender.com/login", {
+    const res = await fetch("https://curemap-api.onrender.com/login", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(formData),
@@ -26,7 +26,7 @@ export const loginUser = async (formData) => {
 
 export const registerUser = async (formData) => {
   try {
-    const res = await fetch("http://curemap-api.onrender.com/register", { 
+    const res = await fetch("https://curemap-api.onrender.com/register", { 
       method: "POST",
       headers: {
         "Content-Type": "application/json",
