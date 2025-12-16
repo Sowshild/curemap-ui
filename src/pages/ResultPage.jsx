@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
 import "./ResultPage.css";
 
-const EXPIRY_TIME = 10 * 60 * 1000; // 10 minutes
+const EXPIRY_TIME = 10 * 60 * 1000; 
 
 function ResultPage() {
   const navigate = useNavigate();

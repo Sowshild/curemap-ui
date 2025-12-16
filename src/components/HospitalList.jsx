@@ -15,7 +15,7 @@ function HospitalList({ hospitals }) {
           <div key={h._id} className="hospital-card">
             <h3>{h.name}</h3>
             <p>{h.address}</p>
-            <p className="phone">📞 {h.phone}</p>
+            <p className="phone">{h.phone}</p>
           </div>
         ))}
       </div>

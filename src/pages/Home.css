@@ -1,7 +1,5 @@
-/* Root Font Setup (use Google Fonts or local load) */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Inter:wght@400;500&display=swap');
 
-/* Wrapper uses theme background */
 .home-page {
   display: flex;
   justify-content: center;
@@ -10,7 +8,6 @@
   font-family: "Inter", sans-serif;
 }
 
-/* Card styled using theme-safe design */
 .home-card {
   width: 100%;
   max-width: 720px;
@@ -23,7 +20,6 @@
   transition: all 0.3s ease-in-out;
 }
 
-/* MAIN TITLE */
 .home-title {
   font-family: "Montserrat", sans-serif;
   font-size: 2.4rem;
@@ -33,7 +29,6 @@
   letter-spacing: -0.5px;
 }
 
-/* SUBTITLE */
 .home-subtitle {
   font-family: "Montserrat", sans-serif;
   font-size: 1.2rem;
@@ -42,7 +37,6 @@
   margin-bottom: 25px;
 }
 
-/* DESCRIPTION */
 .home-desc {
    font-family: 'Nunito', sans-serif;
   font-size: 1.1rem;
@@ -54,14 +48,12 @@
   letter-spacing: 0.2px;
 }
 
-/* BUTTON WRAPPER */
 .home-buttons {
   display: flex;
   justify-content: center;
   gap: 16px;
 }
 
-/* BUTTON BASE STYLE */
 .home-btn {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
@@ -72,7 +64,6 @@
   transition: all 0.25s ease;
 }
 
-/* PRIMARY BUTTON */
 .home-btn.primary {
   background: var(--primary);
   color: white;
@@ -83,7 +74,6 @@
   transform: translateY(-2px);
 }
 
-/* SECONDARY BUTTON */
 .home-btn.secondary {
   background: var(--card-bg);
   border: 1px solid var(--border);

@@ -22,12 +22,11 @@
 .profile-title {
   text-align: center;
   margin-bottom: 20px;
-  font-weight: 300; /* light font */
+  font-weight: 300; 
   color: var(--text-color, #333);
   font-family: 'Inter', sans-serif;
 }
 
-/* Avatar container */
 .avatar-container {
   display: flex;
   flex-direction: column;
@@ -55,7 +54,6 @@
   margin: 8px 0;
 }
 
-/* Make profile text lightweight and theme-aware */
 .profile-text {
   font-weight: 300;
   font-family: 'Inter', sans-serif;
@@ -65,21 +63,15 @@
   transition: color 0.3s ease;
 }
 
-/* Hover effect for interactivity */
 .profile-text:hover {
   color: var(--primary, #3A5DAE);
 }
 
-/* Actions buttons */
 .profile-actions {
   display: flex;
   gap: 10px;
   margin-top: 20px;
 }
-
-/* =========================
-   Dark Mode Support
-========================= */
 
 :root[data-theme="dark"] .profile-page {
   background: #121212;

@@ -1,5 +1,5 @@
 .about-page {
-  min-height: calc(100vh - 80px); /* below navbar */
+  min-height: calc(100vh - 80px); 
   padding: 40px 20px;
   display: flex;
   justify-content: center;
@@ -8,7 +8,6 @@
   color: var(--text);
 }
 
-/* Container Card */
 .about-container {
   width: 100%;
   max-width: 800px;
@@ -19,7 +18,6 @@
   box-shadow: 0 8px 20px rgba(0,0,0,0.08);
 }
 
-/* Heading — Montserrat */
 .about-container h1,
 .about-heading {
   font-family: 'Montserrat', sans-serif;
@@ -27,10 +25,9 @@
   font-weight: 700;
   margin-bottom: 20px;
   color: var(--text);
-  text-align: center;        /* Centering the heading clearly */
+  text-align: center;        
 }
 
-/* Paragraph — Nunito */
 .about-container p,
 .about-text {
   font-family: 'Nunito', sans-serif;
@@ -38,6 +35,6 @@
   line-height: 1.75;
   font-weight: 400;
   color: var(--subtext);
-  text-align: center;        /* Center paragraph for better UI */
+  text-align: center;        
 }
 
