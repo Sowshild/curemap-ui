@@ -25,7 +25,7 @@ useEffect(() => {
         .map((s) => s.trim())
         .filter(Boolean);
 
-      const res = await fetch("http://localhost:5000/result", {
+      const res = await fetch("http://curemap-api.onrender.com/result", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
